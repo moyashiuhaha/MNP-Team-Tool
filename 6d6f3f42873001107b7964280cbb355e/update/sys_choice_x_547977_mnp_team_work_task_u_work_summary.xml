@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_work_summary" table="x_547977_mnp_team_work_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_work_summary</element>
+            <name>x_547977_mnp_team_work_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_id>c0905c5e877001107b7964280cbb3515</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_work_summary</sys_name>
+            <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+            <sys_update_name>sys_choice_x_547977_mnp_team_work_task_u_work_summary</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-04 03:28:51</sys_updated_on>
+            <u_sys_customer_update>false</u_sys_customer_update>
+            <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>セキュリティ課題対応、クレンジングツール故障対応、クレンジングデータ反映ツール基本設計、GIPSS関連資料反映、事業部外ユーザ課題対応、市民開発向けポータル改修、マスタメンテ・PMO業務、維持、故障、課題、問合せ対応など</hint>
+            <inactive>false</inactive>
+            <label>維持運用</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-14 02:33:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>593f26b797ca691012aef1e3f153af40</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 03:56:58</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>問合せ、棚卸打合せ含む</hint>
+            <inactive>true</inactive>
+            <label>問い合わせ</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>101</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-14 02:34:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>186fe2b797ca691012aef1e3f153af20</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>要望事項実装概要検討/工数算出、方式実現性基礎確認</hint>
+            <inactive>false</inactive>
+            <label>CSC-FM</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>103</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-14 02:35:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e7fa6b797ca691012aef1e3f153af8b</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 03:55:12</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>Serivcenow＆基盤検証、関連打合せ含む</hint>
+            <inactive>true</inactive>
+            <label>ITOM Discovery</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>104</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-14 02:35:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>409f6a7797ca691012aef1e3f153af7c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>改修にかかわる稼働（打合せなども含む）</hint>
+            <inactive>false</inactive>
+            <label>申請ポータル</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>105</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-14 02:35:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9afe2f797ca691012aef1e3f153afe5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-14 02:37:16</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>プロビジョニング対応（1月分）動作試験含む、マカレル連携検討結果とりまとめ、インスタンスダウンタイム課題検討</hint>
+            <inactive>false</inactive>
+            <label>自動起票</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>106</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-14 02:36:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aabfe2f797ca691012aef1e3f153af4d</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:00:52</sys_updated_on>
+            <value>21</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>OTP自動起票連携、関連打合せを含む</hint>
+            <inactive>true</inactive>
+            <label>OTP</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>107</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 02:56:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a2d37bd97b3ed1012aef1e3f153afaf</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>NaDIMS影響拠点ツール連携</hint>
+            <inactive>true</inactive>
+            <label>NaDIMS</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>108</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-07-04 02:56:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d4d33bd97b3ed1012aef1e3f153afa7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:05:29</sys_updated_on>
+            <value>23</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>個別定例、各種定例、アクション会議、朝会夕会等</hint>
+            <inactive>false</inactive>
+            <label>その他（打ち合わせなど）</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48905c5e877001107b7964280cbb3514</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 03:53:45</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>要件定義</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>201</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c905c5e877001107b7964280cbb3516</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>設計作業</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>202</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc905c5e877001107b7964280cbb3517</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>開発作業</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>203</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>84905c5e877001107b7964280cbb353e</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>テスト・UAT</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>204</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>08905c5e877001107b7964280cbb353f</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>リリース</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>205</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88905c5e877001107b7964280cbb3540</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>運用管理業務</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>206</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c905c5e877001107b7964280cbb3541</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>ドキュメント作成</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>207</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 07:04:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aad1851287f401107b7964280cbb35d4</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>問合せ・トラブル対応</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>208</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 07:05:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1032491287f401107b7964280cbb350e</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>検証作業関連</hint>
+            <inactive>true</inactive>
+            <label>検証作業</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>209</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:05:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c26c0f87873001107b7964280cbb35ea</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>[消す]維持管理（故障・課題対応、支援等)</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>210</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 07:06:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>de0f1b29871181107b7964280cbb3577</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>[消す]監視連携(中間サーバ)</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>211</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 07:07:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b82f1369871181107b7964280cbb3557</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>[消す]自動起票(TRAP対応)</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>212</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 07:09:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4bf5b29871181107b7964280cbb3510</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>[消す]監視設定</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>213</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-27 07:19:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5902232d871181107b7964280cbb350b</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>[消す]性能管理(PRTG連携対応)</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>214</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-20 08:16:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e63fb2d47b4d1105c968a88536d4356</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
+            <value>99999</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>CMDB/基盤データ検討、インシデント管理モック作成大手町調整、インシデント自動起票検討、・クラウド間データ連携検討、基盤アーキテクチャ検討</hint>
+            <inactive>false</inactive>
+            <label>OOTB化</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>215</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>btazegami</sys_created_by>
+            <sys_created_on>2024-02-02 03:58:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dd5c526978c021412aef1e3f153af33</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:00:06</sys_updated_on>
+            <value>24</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>HinemosインスタンスOSサポート切れ対応、AWSセキュリティグループ修正、S3バゲット削除、RDS PostgreSQL バージョン アップ準備</hint>
+            <inactive>false</inactive>
+            <label>基盤関連</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>216</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>btazegami</sys_created_by>
+            <sys_created_on>2024-02-02 04:01:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6cb6c562970c021412aef1e3f153af95</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:02:32</sys_updated_on>
+            <value>25</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>打ち合わせ　等</hint>
+            <inactive>true</inactive>
+            <label>その他</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>999</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 03:28:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8c905c5e877001107b7964280cbb3542</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:23:34</sys_updated_on>
+            <value>99</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_summary</element>
+            <hint>PMO稼働に入らないので注意</hint>
+            <inactive>false</inactive>
+            <label>【PMO外】Exプラットフォーム開発</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>1000</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>btazegami</sys_created_by>
+            <sys_created_on>2024-02-02 04:07:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfd701e6978c021412aef1e3f153af80</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>btazegami</sys_updated_by>
+            <sys_updated_on>2024-02-02 04:07:22</sys_updated_on>
+            <value>100</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_547977_mnp_team_work_report">x_547977_mnp_team_work_report</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>WOR</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-04 02:16:09</sys_created_on>
+        <sys_id>8fef7bc2873001107b7964280cbb35f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WOR</sys_name>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_number_8fef7bc2873001107b7964280cbb35f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-04 02:16:09</sys_updated_on>
+    </sys_number>
+</record_update>

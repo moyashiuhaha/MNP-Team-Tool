@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_year" table="x_547977_mnp_team_total_table" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_year</element>
+            <name>x_547977_mnp_team_total_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 04:50:24</sys_created_on>
+            <sys_id>ee33ecda87f001107b7964280cbb35ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_year</sys_name>
+            <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+            <sys_update_name>sys_choice_x_547977_mnp_team_total_table_u_year</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-04 04:50:24</sys_updated_on>
+            <u_sys_customer_update>false</u_sys_customer_update>
+            <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_year</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>2022年</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_total_table</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 04:50:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a633ecda87f001107b7964280cbb35ca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-10-02 07:29:22</sys_updated_on>
+            <value>2022</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2023年</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_total_table</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 04:50:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e233ecda87f001107b7964280cbb35cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-04 04:50:24</sys_updated_on>
+            <value>2023</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_year</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2024年</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_total_table</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-04 04:50:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6633ecda87f001107b7964280cbb35cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-04 04:50:24</sys_updated_on>
+            <value>2024</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

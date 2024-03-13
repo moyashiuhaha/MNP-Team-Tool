@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>createWorkReport</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>作業レポート一括作成(月)</name>
+        <onclick>onClickClient()</onclick>
+        <order>100</order>
+        <script><![CDATA[function onClickClient() {
+    if (!confirm("当月に新たに参画するメンバーがいる場合、作成対象メンバーに追加済みですか？")) {
+		alert("新規メンバーを追加の上で作成してください。");
+		return;
+    }
+    gsftSubmit(null, g_form.getFormElement(), 'createWorkReport');
+}
+
+if (typeof window == 'undefined') {
+    CreateWorkReports();
+}
+
+function CreateWorkReports() {
+    var getLastDay = function(year, month) {
+        return new Date(year, month, 0).getDate();
+    };
+    var getDOW = function(year, month, day) {
+        return new Date(year, month - 1, day).getDay();
+    };
+
+    //既に紐づく作業レポートが存在する場合は中止する
+    var gr_wreport_chk = new GlideRecord('x_547977_mnp_team_work_report');
+    gr_wreport_chk.addQuery('u_total_table_ref', current.sys_id);
+    gr_wreport_chk.query();
+
+    if (gr_wreport_chk.getRowCount() != 0) {
+        gs.addErrorMessage('既に紐づく作業レポートが存在する為、自動作成を中止しました。レポートを全て削除してから再度お試しください。');
+        action.setRedirectURL(current);
+        return;
+    }
+
+    //バリデーションチェック
+    if (gs.nil(current.u_month) || gs.nil(current.u_year) || gs.nil(current.u_create_member)) {
+        action.setRedirectURL(current);
+        return;
+    }
+
+    var workers = [];
+    var gr_user = new GlideRecord('sys_user');
+    var query_string = 'sys_idIN' + current.u_create_member;
+    gr_user.addEncodedQuery(query_string);
+    gr_user.query();
+
+    while (gr_user.next()) {
+        workers.push(gr_user.sys_id.slice());
+    }
+
+    for (var i = 0; i < workers.length; i++) {
+        for (var j = 0; j < getLastDay(current.u_year, current.u_month); j++) {
+
+            var day = j + 1;
+            if (day <= 9) {
+                day = '0' + day;
+            }
+            var month = current.u_month;
+            if (month <= 9) {
+                month = '0' + month;
+            }
+            var dow = getDOW(current.u_year, current.u_month, day);
+            var gr_wreport = new GlideRecord('x_547977_mnp_team_work_report');
+            gr_wreport.initialize();
+            gr_wreport.u_date = current.u_year + '-' + month + '-' + day;
+            gr_wreport.u_worker = workers[i];
+            gr_wreport.u_total_table_ref = current.sys_id;
+            if (dow == 0 || dow == 6) {
+                gr_wreport.u_memo = '休み';
+            }
+            gr_wreport.insert();
+        }
+    }
+    action.setRedirectURL(current);
+
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-04 04:24:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>80e9905e87b001107b7964280cbb3571</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>作業レポート一括作成(月)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_ui_action_80e9905e87b001107b7964280cbb3571</sys_update_name>
+        <sys_updated_by>btazegami</sys_updated_by>
+        <sys_updated_on>2023-10-23 11:13:30</sys_updated_on>
+        <table>x_547977_mnp_team_total_table</table>
+        <u_sys_customer_update>false</u_sys_customer_update>
+        <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

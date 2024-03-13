@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>title</element>
+        <id/>
+        <label>日別作業レポート一覧</label>
+        <language>ja</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-04 06:50:14</sys_created_on>
+        <sys_id>79ae789a87b401107b7964280cbb354f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>日別作業レポート一覧</sys_name>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_translated_79ae789a87b401107b7964280cbb354f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-04 06:51:12</sys_updated_on>
+        <value>Work Reports</value>
+    </sys_translated>
+</record_update>

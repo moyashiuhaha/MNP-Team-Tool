@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_list_control">
+    <sys_ui_list_control action="INSERT_OR_UPDATE">
+        <columns_condition/>
+        <disable_nlq>false</disable_nlq>
+        <edit_condition/>
+        <edit_default_filter/>
+        <edit_roles/>
+        <empty_condition/>
+        <filter_condition/>
+        <filter_roles/>
+        <hierarchical_lists>false</hierarchical_lists>
+        <label>All Reports</label>
+        <link_condition/>
+        <link_roles/>
+        <list_edit_insert_row>false</list_edit_insert_row>
+        <list_edit_ref_qual_tag/>
+        <list_edit_type/>
+        <name>x_547977_mnp_team_total_table</name>
+        <new_condition/>
+        <new_roles/>
+        <omit_columns_if_empty>false</omit_columns_if_empty>
+        <omit_count>false</omit_count>
+        <omit_count_views>false</omit_count_views>
+        <omit_count_views_list/>
+        <omit_drilldown_link>false</omit_drilldown_link>
+        <omit_edit_button>true</omit_edit_button>
+        <omit_filters>false</omit_filters>
+        <omit_if_empty>false</omit_if_empty>
+        <omit_links>false</omit_links>
+        <omit_new_button>true</omit_new_button>
+        <related_list>x_547977_mnp_team_work_report.u_total_table_ref</related_list>
+        <sys_class_name>sys_ui_list_control</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-04 05:56:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1452f056877401107b7964280cbb3559</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_547977_mnp_team_total_table</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_ui_list_control_1452f056877401107b7964280cbb3559</sys_update_name>
+        <sys_updated_by>btazegami</sys_updated_by>
+        <sys_updated_on>2023-11-06 10:11:58</sys_updated_on>
+        <u_sys_customer_update>false</u_sys_customer_update>
+        <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
+    </sys_ui_list_control>
+</record_update>

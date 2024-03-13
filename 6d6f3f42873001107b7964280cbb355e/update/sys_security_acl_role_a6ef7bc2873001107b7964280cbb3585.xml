@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-04 02:16:07</sys_created_on>
+        <sys_id>a6ef7bc2873001107b7964280cbb3585</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_547977_mnp_team_work_report.x_547977_mnp_team.work_report_user</sys_name>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_security_acl display_value="x_547977_mnp_team_work_report">eeef7bc2873001107b7964280cbb3580</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_a6ef7bc2873001107b7964280cbb3585</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-04 02:16:07</sys_updated_on>
+        <sys_user_role display_value="x_547977_mnp_team.work_report_user" name="x_547977_mnp_team.work_report_user">52eff302873001107b7964280cbb35ac</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
