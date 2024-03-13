@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_work_detail" table="x_547977_mnp_team_work_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_work_detail</element>
+            <name>x_547977_mnp_team_work_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_id>2f131b03877001107b7964280cbb3599</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_work_detail</sys_name>
+            <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+            <sys_update_name>sys_choice_x_547977_mnp_team_work_task_u_work_detail</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mana PlaS朝会</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3131b03877001107b7964280cbb3599</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>Mana PlaS朝会</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mana PlaS夕会</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27131b03877001107b7964280cbb359b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>Mana PlaS夕会</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>仕様変更FIX会＆故障棚卸会</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e7131b03877001107b7964280cbb359c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>仕様変更FIX会＆故障棚卸会</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>問い合わせ＆仕変棚卸し</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab131b03877001107b7964280cbb359d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>問い合わせ＆仕変棚卸し</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>情報共有コミュニケーション</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6f131b03877001107b7964280cbb359e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>情報共有コミュニケーション</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>松原Gミーティング</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>23131b03877001107b7964280cbb35a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>松原Gミーティング</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PMチームコミュニケーション</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3131b03877001107b7964280cbb35a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>PMチームコミュニケーション</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mana PlaS進捗定例＆課題定例</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7131b03877001107b7964280cbb35a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>Mana PlaS進捗定例＆課題定例</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>進捗定例会(SNOW(BP)・INFA)</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e313d383877001107b7964280cbb355c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>進捗定例会(SNOW(BP)・INFA)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>【CX】定例</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a713d383877001107b7964280cbb355d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:19</sys_updated_on>
+            <value>【CX】定例</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>基盤定例</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b13d383877001107b7964280cbb355e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:20</sys_updated_on>
+            <value>基盤定例</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mana PlaS内、FM次期店舗NW定例</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2f13d383877001107b7964280cbb355f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:20</sys_updated_on>
+            <value>Mana PlaS内、FM次期店舗NW定例</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FM次期店舗NW_FM-PJ_Mana PlaSチーム定例</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef13d383877001107b7964280cbb3560</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:20</sys_updated_on>
+            <value>FM次期店舗NW_FM-PJ_Mana PlaSチーム定例</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mana PlaSチーム ワークショップ</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>13</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-07 01:34:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a313d383877001107b7964280cbb3562</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-07 01:34:20</sys_updated_on>
+            <value>Mana PlaSチーム ワークショップ</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>問い合わせ対応</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>14</sequence>
+            <synonyms/>
+            <sys_created_by>btkatsuma</sys_created_by>
+            <sys_created_on>2022-01-07 08:57:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd98b8df87b801107b7964280cbb35b1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>btkatsuma</sys_updated_by>
+            <sys_updated_on>2022-01-07 08:57:37</sys_updated_on>
+            <value>問い合わせ対応</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SNOW定例</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>15</sequence>
+            <synonyms/>
+            <sys_created_by>btkatsuma</sys_created_by>
+            <sys_created_on>2022-01-20 10:32:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83da806f874d81107b7964280cbb35ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>btkatsuma</sys_updated_by>
+            <sys_updated_on>2022-01-20 10:32:02</sys_updated_on>
+            <value>SNOW定例</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>【定例】性能管理検討</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>16</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-08-19 01:39:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4948f8db479151105c968a88536d4385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-08-19 01:39:04</sys_updated_on>
+            <value>【定例】性能管理検討</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_work_detail</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>(PMO)SMSチーム朝会</label>
+            <language>en</language>
+            <name>x_547977_mnp_team_work_task</name>
+            <sequence>17</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-18 02:59:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b873f1a0471711105c968a88536d43a6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-18 03:00:27</sys_updated_on>
+            <value>20</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

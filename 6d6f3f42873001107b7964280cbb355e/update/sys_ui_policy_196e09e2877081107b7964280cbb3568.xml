@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    if (g_scratchpad.report_count != 0) {
+        g_form.setReadOnly('u_create_member', true);
+		g_form.setReadOnly('u_year', true);
+		g_form.setReadOnly('u_month', true);
+    }
+	else{
+		g_form.setReadOnly('u_create_member', false);
+		g_form.setReadOnly('u_year', false);
+		g_form.setReadOnly('u_month', false);
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>作業レコードが存在する場合は読み取り専用にする</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-05 02:39:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>196e09e2877081107b7964280cbb3568</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>作業レコードが存在する場合は読み取り専用にする</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_ui_policy_196e09e2877081107b7964280cbb3568</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-05 03:32:48</sys_updated_on>
+        <table>x_547977_mnp_team_total_table</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

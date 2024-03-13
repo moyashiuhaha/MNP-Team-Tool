@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style>primary</form_style>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>集計分析</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[let  Caluculate = () => {
+    //リダイレクト先を設定
+    action.setRedirectURL(current);
+
+    //選択肢リストの取得
+    let choiceList = [];
+    let choiceLabel = [];
+    let choiceDict = {};
+    let gr_choice = new GlideRecord('sys_choice');
+    gr_choice.addQuery('name', 'x_547977_mnp_team_work_task');
+    gr_choice.addQuery('element', 'u_work_summary');
+    gr_choice.addQuery('inactive', 'false');
+	gr_choice.addQuery('value','!=',100);
+    gr_choice.orderBy('value');
+    gr_choice.query();
+    while (gr_choice.next()) {
+        choiceList.push(gr_choice.value.slice());
+        choiceLabel.push(gr_choice.label.slice());
+    }
+
+    //リザルトをクリア
+    current.u_result = "";
+
+    //集計対象者取得
+    let workers = current.u_create_member.split(',');
+
+    for (let i = 0; i < workers.length; i++) {
+        //変数初期化
+        let totalScore = 0;
+		let name = "";
+		let count = 0;
+        //スコアの初期化
+        for (let item in choiceList) {
+            choiceDict[choiceList[item]] = 0;
+        }
+
+        let gr_workRP = new GlideRecord('x_547977_mnp_team_work_report');
+        gr_workRP.addQuery('u_total_table_ref', current.sys_id);
+        gr_workRP.addQuery('u_worker', workers[i]);
+        gr_workRP.query();
+
+        let gr_user = new GlideRecord('sys_user');
+        gr_user.addQuery('sys_id', workers[i]);
+        gr_user.query();
+        if (gr_user.next()) {
+            name = gr_user.last_name + ' ' + gr_user.first_name;
+        }
+        name = name ? name : "unknown";
+
+        current.u_result += '【' + name + 'さんの集計結果】\n';
+        while (gr_workRP.next()) {
+            let gr_worktsk = new GlideRecord('x_547977_mnp_team_work_task');
+            gr_worktsk.addQuery('u_parent_day', gr_workRP.sys_id);
+			gr_worktsk.addQuery('u_work_summary','!=',100);
+            gr_worktsk.query();
+
+            while (gr_worktsk.next()) {
+                totalScore += gr_worktsk.u_hour;
+                choiceDict[gr_worktsk.u_work_summary] += gr_worktsk.u_hour;
+            }
+        }
+        for (let key in choiceDict) {
+            current.u_result += choiceLabel[count] + ':' + choiceDict[key] + '(H)\n';
+            count++;
+        }
+        current.u_result += '合計時間:' + totalScore + '(H)\n';
+        current.u_result += '------------------------------------------\n\n';
+        gs.info(current.u_result);
+    }
+    current.update();
+};
+
+if (typeof window == 'undefined') {
+    Caluculate();
+}
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-12 09:10:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d52b6a3487c981107b7964280cbb35b6</sys_id>
+        <sys_mod_count>35</sys_mod_count>
+        <sys_name>集計分析</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_ui_action_d52b6a3487c981107b7964280cbb35b6</sys_update_name>
+        <sys_updated_by>btazegami</sys_updated_by>
+        <sys_updated_on>2024-02-26 13:19:58</sys_updated_on>
+        <table>x_547977_mnp_team_total_table</table>
+        <u_sys_customer_update>false</u_sys_customer_update>
+        <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>
