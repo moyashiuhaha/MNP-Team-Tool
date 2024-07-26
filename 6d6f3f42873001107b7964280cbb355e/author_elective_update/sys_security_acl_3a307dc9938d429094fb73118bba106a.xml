@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_547977_mnp_team_test_hard_ci</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_547977_mnp_team_test_hard_ci</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 08:14:45</sys_created_on>
+        <sys_id>3a307dc9938d429094fb73118bba106a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_547977_mnp_team_test_hard_ci</sys_name>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_security_acl_3a307dc9938d429094fb73118bba106a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 08:14:45</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</application>
+        <file_path/>
+        <instance_id>349992f21bee7990699443f4bd4bcb87</instance_id>
+        <instance_name>dev218621</instance_name>
+        <name>sys_security_acl_3a307dc9938d429094fb73118bba106a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_547977_mnp_team_test_hard_ci</description><local_or_existing>Local</local_or_existing><name>x_547977_mnp_team_test_hard_ci</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-18 08:14:45</sys_created_on><sys_id>3a307dc9938d429094fb73118bba106a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_547977_mnp_team_test_hard_ci</sys_name><sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package><sys_policy/><sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope><sys_update_name>sys_security_acl_3a307dc9938d429094fb73118bba106a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-18 08:14:45</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1802553743</payload_hash>
+        <record_name>x_547977_mnp_team_test_hard_ci</record_name>
+        <reverted_from/>
+        <source>88052d81934d429094fb73118bba10bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 08:14:45</sys_created_on>
+        <sys_id>be307dc9938d429094fb73118bba106f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e50a096770000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 08:14:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f2307dc96f8d4290deb99dc834cbfa6f</update_guid>
+        <update_guid_history>f2307dc96f8d4290deb99dc834cbfa6f:-1802553743</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 14:02:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>1aaa5cb77d52444387c866907ed525e1</sys_id>
+        <sys_metadata>3a307dc9938d429094fb73118bba106a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_547977_mnp_team_test_hard_ci</sys_name>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_parent display_value="">cf307dc9938d429094fb73118bba108b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_scope_delete display_value="">16e6929b1a5a43f6a52e561d4a1c3724</sys_scope_delete>
+        <sys_update_name>sys_security_acl_3a307dc9938d429094fb73118bba106a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_3a307dc9938d429094fb73118bba106a">be307dc9938d429094fb73118bba106f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 14:02:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-02-01 11:09:05</sys_created_on>
-            <sys_id>ea66c69787190d107b7964280cbb3501</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_suggest</sys_name>
             <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
@@ -30,7 +29,6 @@
             <sys_created_on>2022-02-01 11:09:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a266c69787190d107b7964280cbb3501</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-02-01 11:09:05</sys_updated_on>
@@ -50,7 +48,6 @@
             <sys_created_on>2022-02-01 11:09:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>aa66c69787190d107b7964280cbb3502</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-02-01 11:09:05</sys_updated_on>
@@ -70,7 +67,6 @@
             <sys_created_on>2022-02-01 11:09:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2e66c69787190d107b7964280cbb3503</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-02-01 11:09:05</sys_updated_on>

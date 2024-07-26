@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2a05a54d930d429094fb73118bba10f3" label="KENSYO" max_length="40" name="x_547977_mnp_team_kensyo" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Pattern" max_length="40" name="u_patterm" type="string"/>
+    </element>
+</database>

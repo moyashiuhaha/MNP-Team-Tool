@@ -67,8 +67,6 @@ function caluc_button(){
         <sys_updated_by>btazegami</sys_updated_by>
         <sys_updated_on>2024-02-02 04:18:36</sys_updated_on>
         <table>x_547977_mnp_team_work_report</table>
-        <u_sys_customer_update>false</u_sys_customer_update>
-        <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>

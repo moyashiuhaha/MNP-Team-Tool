@@ -6,7 +6,6 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
-            <sys_id>c0905c5e877001107b7964280cbb3515</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_work_summary</sys_name>
             <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
@@ -15,8 +14,6 @@
             <sys_update_name>sys_choice_x_547977_mnp_team_work_task_u_work_summary</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-01-04 03:28:51</sys_updated_on>
-            <u_sys_customer_update>false</u_sys_customer_update>
-            <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -28,12 +25,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>100</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-14 02:33:58</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>593f26b797ca691012aef1e3f153af40</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 03:56:58</sys_updated_on>
@@ -49,12 +44,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>101</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-14 02:34:44</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>186fe2b797ca691012aef1e3f153af20</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -70,12 +63,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>103</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-14 02:35:07</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>3e7fa6b797ca691012aef1e3f153af8b</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 03:55:12</sys_updated_on>
@@ -91,12 +82,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>104</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-14 02:35:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>409f6a7797ca691012aef1e3f153af7c</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -112,12 +101,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>105</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-14 02:35:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b9afe2f797ca691012aef1e3f153afe5</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2023-04-14 02:37:16</sys_updated_on>
@@ -133,12 +120,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>106</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-04-14 02:36:14</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>aabfe2f797ca691012aef1e3f153af4d</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:00:52</sys_updated_on>
@@ -154,12 +139,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>107</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-07-04 02:56:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0a2d37bd97b3ed1012aef1e3f153afaf</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -175,12 +158,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>108</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2023-07-04 02:56:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9d4d33bd97b3ed1012aef1e3f153afa7</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:05:29</sys_updated_on>
@@ -196,12 +177,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>200</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>48905c5e877001107b7964280cbb3514</sys_id>
             <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 03:53:45</sys_updated_on>
@@ -217,12 +196,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>201</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4c905c5e877001107b7964280cbb3516</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -238,12 +215,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>202</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cc905c5e877001107b7964280cbb3517</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -259,12 +234,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>203</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>84905c5e877001107b7964280cbb353e</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -280,12 +253,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>204</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>08905c5e877001107b7964280cbb353f</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -301,12 +272,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>205</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>88905c5e877001107b7964280cbb3540</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -322,12 +291,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>206</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0c905c5e877001107b7964280cbb3541</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -343,12 +310,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>207</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 07:04:29</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>aad1851287f401107b7964280cbb35d4</sys_id>
             <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
@@ -364,12 +329,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>208</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 07:05:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1032491287f401107b7964280cbb350e</sys_id>
             <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
@@ -385,12 +348,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>209</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-07 01:05:13</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>c26c0f87873001107b7964280cbb35ea</sys_id>
             <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
@@ -406,12 +367,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>210</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-27 07:06:55</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>de0f1b29871181107b7964280cbb3577</sys_id>
             <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
@@ -427,12 +386,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>211</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-27 07:07:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>b82f1369871181107b7964280cbb3557</sys_id>
             <sys_mod_count>8</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
@@ -448,12 +405,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>212</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-27 07:09:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>f4bf5b29871181107b7964280cbb3510</sys_id>
             <sys_mod_count>9</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
@@ -469,12 +424,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>213</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-27 07:19:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5902232d871181107b7964280cbb350b</sys_id>
             <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:16</sys_updated_on>
@@ -490,12 +443,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>214</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-07-20 08:16:25</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6e63fb2d47b4d1105c968a88536d4356</sys_id>
             <sys_mod_count>6</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:04:15</sys_updated_on>
@@ -511,12 +462,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>215</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>btazegami</sys_created_by>
             <sys_created_on>2024-02-02 03:58:45</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>9dd5c526978c021412aef1e3f153af33</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:00:06</sys_updated_on>
@@ -532,12 +481,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>216</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>btazegami</sys_created_by>
             <sys_created_on>2024-02-02 04:01:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6cb6c562970c021412aef1e3f153af95</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:02:32</sys_updated_on>
@@ -553,12 +500,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>999</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-01-04 03:28:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8c905c5e877001107b7964280cbb3542</sys_id>
             <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:23:34</sys_updated_on>
@@ -574,12 +519,10 @@
             <name>x_547977_mnp_team_work_task</name>
             <sequence>1000</sequence>
             <synonyms/>
-            <sys_class_name>sys_choice</sys_class_name>
             <sys_created_by>btazegami</sys_created_by>
             <sys_created_on>2024-02-02 04:07:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cfd701e6978c021412aef1e3f153af80</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>btazegami</sys_updated_by>
             <sys_updated_on>2024-02-02 04:07:22</sys_updated_on>

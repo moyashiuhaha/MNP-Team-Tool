@@ -16,6 +16,7 @@
         <sys_update_name>sys_ui_style_274badb1873981107b7964280cbb352a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-21 13:51:43</sys_updated_on>
+        <themed_style/>
         <value>javascript:current.u_overtime == true</value>
     </sys_ui_style>
     <sys_translated_text action="delete_multiple" query="documentkey=274badb1873981107b7964280cbb352a"/>

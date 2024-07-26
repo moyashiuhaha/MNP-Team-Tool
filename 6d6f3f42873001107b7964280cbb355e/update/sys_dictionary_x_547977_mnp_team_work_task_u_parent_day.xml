@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_parent_day" table="x_547977_mnp_team_work_task">
         <active>true</active>
         <array>false</array>
-        <attributes>encode_utf8=false,ref_decoration_disabled=true</attributes>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false,ref_decoration_disabled=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-04 03:30:32</sys_created_on>
-        <sys_id>e0f0949e877001107b7964280cbb35f3</sys_id>
         <sys_name>Parent Day</sys_name>
         <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
         <sys_policy/>
@@ -57,8 +56,6 @@
         <sys_updated_on>2024-03-06 02:58:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
-        <u_sys_customer_update>false</u_sys_customer_update>
-        <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

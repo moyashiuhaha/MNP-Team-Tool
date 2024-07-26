@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_547977_mnp_team_test_hard_ci">x_547977_mnp_team_test_hard_ci</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>TESCI</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 08:14:51</sys_created_on>
+        <sys_id>e440fdc9938d429094fb73118bba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TESCI</sys_name>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_update_name>sys_number_e440fdc9938d429094fb73118bba105f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 08:14:51</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</application>
+        <file_path/>
+        <instance_id>349992f21bee7990699443f4bd4bcb87</instance_id>
+        <instance_name>dev218621</instance_name>
+        <name>sys_number_e440fdc9938d429094fb73118bba105f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_547977_mnp_team_test_hard_ci">x_547977_mnp_team_test_hard_ci</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>TESCI</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-18 08:14:51</sys_created_on><sys_id>e440fdc9938d429094fb73118bba105f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TESCI</sys_name><sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package><sys_policy/><sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope><sys_update_name>sys_number_e440fdc9938d429094fb73118bba105f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-18 08:14:51</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1545677731</payload_hash>
+        <record_name>TESCI</record_name>
+        <reverted_from/>
+        <source>88052d81934d429094fb73118bba10bb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 08:14:55</sys_created_on>
+        <sys_id>5940310d938d429094fb73118bba1056</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e50a0be930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 08:14:55</sys_updated_on>
+        <type>Number</type>
+        <update_guid>9d40310db98d4290bd7f262c2f60fb55</update_guid>
+        <update_guid_history>9d40310db98d4290bd7f262c2f60fb55:-1545677731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 14:02:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>05fb92ab8064402e8d0e545bcc3871a4</sys_id>
+        <sys_metadata>e440fdc9938d429094fb73118bba105f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TESCI</sys_name>
+        <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
+        <sys_parent display_value="">52bfa5c1934d429094fb73118bba1033</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="MNP Team Tool">6d6f3f42873001107b7964280cbb355e</sys_scope>
+        <sys_scope_delete display_value="">16e6929b1a5a43f6a52e561d4a1c3724</sys_scope_delete>
+        <sys_update_name>sys_number_e440fdc9938d429094fb73118bba105f</sys_update_name>
+        <sys_update_version display_value="sys_number_e440fdc9938d429094fb73118bba105f">5940310d938d429094fb73118bba1056</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 14:02:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_create_member" table="x_547977_mnp_team_total_table">
         <active>true</active>
         <array>false</array>
-        <attributes>no_sort=true,slushbucket_ref_no_expand=true</attributes>
+        <attributes>edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -50,7 +50,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-04 04:05:58</sys_created_on>
-        <sys_id>f30998da87b001107b7964280cbb35ac</sys_id>
         <sys_name>Create Member</sys_name>
         <sys_package display_value="MNP Team Tool" source="x_547977_mnp_team">6d6f3f42873001107b7964280cbb355e</sys_package>
         <sys_policy/>
@@ -60,8 +59,6 @@
         <sys_updated_on>2023-10-02 07:21:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
-        <u_sys_customer_update>false</u_sys_customer_update>
-        <u_sys_replace_on_upgrade>false</u_sys_replace_on_upgrade>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>

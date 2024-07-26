@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="live_feed=true" db_object_id="0aa04056873001107b7964280cbb3517" label="Work Task" max_length="40" name="x_547977_mnp_team_work_task" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Suggest(Work Detail項目の選択肢として利用)" max_length="40" name="u_suggest" type="string">
+            <choice>
+                <element inactive_on_update="false" label="さしすせそ" sequence="2" value="さしすせそ"/>
+                <element inactive_on_update="false" label="あいうえお" sequence="0" value="あいうえお"/>
+                <element inactive_on_update="false" label="かきくけこ" sequence="1" value="かきくけこ"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Hour" mandatory="true" max_length="40" name="u_hour" type="float"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Work Summary" mandatory="true" max_length="40" name="u_work_summary" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="テスト・UAT" sequence="204" value="99999"/>
+                <element hint="OTP自動起票連携、関連打合せを含む" inactive="true" inactive_on_update="true" label="OTP" sequence="107" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="運用管理業務" sequence="206" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="問合せ・トラブル対応" sequence="208" value="99999"/>
+                <element hint="問合せ、棚卸打合せ含む" inactive="true" inactive_on_update="true" label="問い合わせ" sequence="101" value="99999"/>
+                <element hint="要望事項実装概要検討/工数算出、方式実現性基礎確認" inactive_on_update="false" label="CSC-FM" sequence="103" value="18"/>
+                <element hint="Serivcenow＆基盤検証、関連打合せ含む" inactive="true" inactive_on_update="true" label="ITOM Discovery" sequence="104" value="99999"/>
+                <element hint="個別定例、各種定例、アクション会議、朝会夕会等" inactive_on_update="false" label="その他（打ち合わせなど）" sequence="200" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="要件定義" sequence="201" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="[消す]監視設定" sequence="213" value="99999"/>
+                <element hint="セキュリティ課題対応、クレンジングツール故障対応、クレンジングデータ反映ツール基本設計、GIPSS関連資料反映、事業部外ユーザ課題対応、市民開発向けポータル改修、マスタメンテ・PMO業務、維持、故障、課題、問合せ対応など" inactive_on_update="false" label="維持運用" sequence="100" value="16"/>
+                <element hint="HinemosインスタンスOSサポート切れ対応、AWSセキュリティグループ修正、S3バゲット削除、RDS PostgreSQL バージョン アップ準備" inactive_on_update="false" label="基盤関連" sequence="216" value="25"/>
+                <element inactive="true" inactive_on_update="true" label="[消す]性能管理(PRTG連携対応)" sequence="214" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="開発作業" sequence="203" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="リリース" sequence="205" value="99999"/>
+                <element hint="打ち合わせ　等" inactive="true" inactive_on_update="true" label="その他" sequence="999" value="99"/>
+                <element hint="NaDIMS影響拠点ツール連携" inactive="true" inactive_on_update="true" label="NaDIMS" sequence="108" value="23"/>
+                <element hint="CMDB/基盤データ検討、インシデント管理モック作成大手町調整、インシデント自動起票検討、・クラウド間データ連携検討、基盤アーキテクチャ検討" inactive_on_update="false" label="OOTB化" sequence="215" value="24"/>
+                <element hint="プロビジョニング対応（1月分）動作試験含む、マカレル連携検討結果とりまとめ、インスタンスダウンタイム課題検討" inactive_on_update="false" label="自動起票" sequence="106" value="21"/>
+                <element inactive="true" inactive_on_update="true" label="ドキュメント作成" sequence="207" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="[消す]監視連携(中間サーバ)" sequence="211" value="99999"/>
+                <element hint="改修にかかわる稼働（打合せなども含む）" inactive_on_update="false" label="申請ポータル" sequence="105" value="20"/>
+                <element hint="検証作業関連" inactive="true" inactive_on_update="true" label="検証作業" sequence="209" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="設計作業" sequence="202" value="99999"/>
+                <element hint="PMO稼働に入らないので注意" inactive_on_update="false" label="【PMO外】Exプラットフォーム開発" sequence="1000" value="100"/>
+                <element inactive="true" inactive_on_update="true" label="[消す]維持管理（故障・課題対応、支援等)" sequence="210" value="99999"/>
+                <element inactive="true" inactive_on_update="true" label="[消す]自動起票(TRAP対応)" sequence="212" value="99999"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Overtime" max_length="40" name="u_overtime" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="2" label="Work Detail" max_length="255" name="u_work_detail" type="string">
+            <choice>
+                <element inactive_on_update="false" label="松原Gミーティング" sequence="5" value="松原Gミーティング"/>
+                <element inactive_on_update="false" label="Mana PlaS夕会" sequence="1" value="Mana PlaS夕会"/>
+                <element inactive_on_update="false" label="Mana PlaS内、FM次期店舗NW定例" sequence="11" value="Mana PlaS内、FM次期店舗NW定例"/>
+                <element inactive_on_update="false" label="【定例】性能管理検討" sequence="16" value="【定例】性能管理検討"/>
+                <element inactive_on_update="false" label="基盤定例" sequence="10" value="基盤定例"/>
+                <element inactive_on_update="false" label="情報共有コミュニケーション" sequence="4" value="情報共有コミュニケーション"/>
+                <element inactive_on_update="false" label="SNOW定例" sequence="15" value="SNOW定例"/>
+                <element inactive_on_update="false" label="Mana PlaS朝会" sequence="0" value="Mana PlaS朝会"/>
+                <element inactive_on_update="false" label="Mana PlaSチーム ワークショップ" sequence="13" value="Mana PlaSチーム ワークショップ"/>
+                <element inactive_on_update="false" label="Mana PlaS進捗定例＆課題定例" sequence="7" value="Mana PlaS進捗定例＆課題定例"/>
+                <element inactive_on_update="false" label="【CX】定例" sequence="9" value="【CX】定例"/>
+                <element inactive_on_update="false" label="問い合わせ＆仕変棚卸し" sequence="3" value="問い合わせ＆仕変棚卸し"/>
+                <element inactive_on_update="false" label="(PMO)SMSチーム朝会" sequence="17" value="20"/>
+                <element inactive_on_update="false" label="問い合わせ対応" sequence="14" value="問い合わせ対応"/>
+                <element inactive_on_update="false" label="PMチームコミュニケーション" sequence="6" value="PMチームコミュニケーション"/>
+                <element inactive_on_update="false" label="進捗定例会(SNOW(BP)・INFA)" sequence="8" value="進捗定例会(SNOW(BP)・INFA)"/>
+                <element inactive_on_update="false" label="仕様変更FIX会＆故障棚卸会" sequence="2" value="仕様変更FIX会＆故障棚卸会"/>
+                <element inactive_on_update="false" label="FM次期店舗NW_FM-PJ_Mana PlaSチーム定例" sequence="12" value="FM次期店舗NW_FM-PJ_Mana PlaSチーム定例"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,ref_decoration_disabled=true" label="Parent Day" max_length="32" name="u_parent_day" reference="x_547977_mnp_team_work_report" type="reference"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index2">
+            <element name="u_parent_day"/>
+        </index>
+    </element>
+</database>
